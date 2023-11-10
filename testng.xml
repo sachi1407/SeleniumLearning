@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/sachi/IdeaProjects/untitled1">
+    <classes>
+        <class name="org.selenium.ValidLogin">
+    <methods>
+        <include name="openBrowser"/>
+    </methods>
+</class>
+    <class name="org.selenium.Invalid_Login">
+        <methods>
+            <include name="invalidLogin"/>
+        </methods></class>
+</classes></test></suite>
