@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/sachi/IdeaProjects/SeleniumLearning/src/test/java/org/selenium/HealthCare/Appointment.java">
-    <classes><class name="org.selenium.HealthCare.Appointment">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="VWO_Login">
+    <classes>
+        <class name="org.selenium.VWO_Login">
         <methods>
-            <include name="makeAppointment"/>
+            <include name="negative_Testcase"/>
+            <include name="positive_TestCase"/>
         </methods>
     </class>
 
